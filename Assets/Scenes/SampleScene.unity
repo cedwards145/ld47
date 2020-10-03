@@ -294,8 +294,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"411b518c-768a-4307-9d8d-3c02c3e602ad","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-232.0,"y":-25.0},"guid":"d081b215-a998-4ce2-9ff9-0146dfd84031","$version":"A","$type":"Bolt.Update","$id":"12"},{"chainable":false,"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":56.0,"y":-35.0},"guid":"a16e33d1-da18-49ff-bd49-53e23a3e9e1f","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"type":"System.String","value":{"$content":"Hi","$type":"System.String"},"defaultValues":{},"position":{"x":-9.0,"y":183.0},"guid":"fa731b40-5d2b-447c-9c64-e67dcba268bd","$version":"A","$type":"Bolt.Literal","$id":"17"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"6b7b7aa9-d893-470d-8ed5-0975f5b8f154","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"output","destinationUnit":{"$ref":"14"},"destinationKey":"%message","guid":"e53a033f-e5fc-4170-af58-cce3b63b9fe0","$type":"Bolt.ValueConnection"}],"$version":"A"}}}'
-    _objectReferences: []
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: ff6d0b9399d3af4489f11379f2d80bb9, type: 2}
 --- !u!114 &1959020863
 MonoBehaviour:
   m_ObjectHideFlags: 0
